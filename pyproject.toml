@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "particleselect"
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]
